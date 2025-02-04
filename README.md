@@ -321,7 +321,7 @@ API будет доступен по адресу `http://0.0.0.0:8000`.
 Вы можете протестировать API, используя инструменты вроде `curl` или `Postman`. Например, с помощью `curl`:
 
 ```bash
-curl -X POST -H "Content-Type: application/json" -d @example_request.json http://0.0.0.0:8000/predict/
+curl -X POST -H "Content-Type: application/json" -d @example_request.json http://0.0.0.0:8000/predict
 ```
 
 *(Где `example_request.json` - файл с JSON запросом, аналогичным примеру выше)*
